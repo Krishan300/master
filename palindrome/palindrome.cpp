@@ -10,10 +10,17 @@
 using namespace std;
 class Palindrome{
   char* checkforpal;
+  int age;
 public:
   Palindrome(char* x): checkforpal(x){}
-  bool palchecker()
+  
+  bool palchecker() throws IllegalStateException
   {
+    if(x==NULL)
+      {
+	throw new IllegalStateException("Cannot have null char");
+
+      }
     printf("%s\n", checkforpal);
     printf("Should create mergeconflict");
     bool ispalindrome=true;
