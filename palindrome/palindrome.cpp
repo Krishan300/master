@@ -15,7 +15,7 @@ public:
   bool palchecker()
   {
     printf("%s\n", checkforpal);
-    printf("Checking for changes");
+    printf("Should create mergeconflict");
     bool ispalindrome=true;
     int i=0;
     while(i<(strlen(checkforpal)))
