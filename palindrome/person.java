@@ -2,10 +2,11 @@ public class Person {
 
     private String firstName;
     private String lastName;
-    
-    public Person(String firstName, String lastName) {
+    int age;    
+    public Person(String firstName, String lastName, int age) {
 	this.setFirstName(firstName);
         this.setLastName(lastName);
+        this.age(age);
 
     }
 
